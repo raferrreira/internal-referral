@@ -465,6 +465,36 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
+.alert{
+    opacity: 1;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid;
+}
+
+.alert button {
+    margin-top: 0;
+}
+
+.alert button span {
+    font-size: 25px !important;
+    position: relative;
+    top: -11px;
+}
+
+.altert-success {
+    background: #00b06099;
+    border-color: 00b060;
+    color: #054e2d;
+}
+
+.alert-error {
+    background: #f4433691;
+    border-color: #f44336;
+    color: #b72015;
+}
+
+
 .fade-in {
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
