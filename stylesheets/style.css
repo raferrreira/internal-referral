@@ -482,14 +482,14 @@ input[type="number"] {
     top: -11px;
 }
 
-.altert-success {
-    background: #00b06099;
-    border-color: 00b060;
+.alert-success {
+    background: rgba(0, 176, 96, 0.6);
+    border-color: #00b060;
     color: #054e2d;
 }
 
 .alert-error {
-    background: #f4433691;
+    background: rgba(244, 67, 54, 0.569);
     border-color: #f44336;
     color: #b72015;
 }
